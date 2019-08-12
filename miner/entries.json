@@ -1,0 +1,64 @@
+{
+  "nextEntryId": 16,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Scene",
+      "type": "scene"
+    },
+    {
+      "id": "15",
+      "name": "Game",
+      "type": "script"
+    },
+    {
+      "id": "14",
+      "name": "Camera",
+      "type": "script"
+    },
+    {
+      "id": "12",
+      "name": "Enemy",
+      "type": null,
+      "children": [
+        {
+          "id": "11",
+          "name": "Miner",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "CameraOld",
+      "type": "script"
+    },
+    {
+      "id": "4",
+      "name": "Tile Set",
+      "type": "tileSet"
+    },
+    {
+      "id": "6",
+      "name": "Map",
+      "type": "tileMap"
+    },
+    {
+      "id": "1",
+      "name": "Player",
+      "type": null,
+      "children": [
+        {
+          "id": "2",
+          "name": "Sprite",
+          "type": "sprite"
+        },
+        {
+          "id": "3",
+          "name": "Behavior",
+          "type": "script"
+        }
+      ]
+    }
+  ]
+}
